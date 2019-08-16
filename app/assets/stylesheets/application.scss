@@ -1,0 +1,32 @@
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import 'articles';
+
+h1{
+  text-align: center;
+}
+
+ body{
+  background-image: url("/images/20752.jpg");
+  
+  max-width: 100%;
+  max-height: 100%;
+  background-size: 20% auto;
+ }
+
+ .pagination>li>a {          
+  border: 1px solid black;     /*枠線をなくす*/
+  color: black;   /*文字の色を変える*/
+}
+
+/* 表示しているページ番号のデザイン */
+.pagination>.active>a {     
+  background: #93c9ff;     /*背景の色を変える*/
+  border-radius: 15px;     /*角を丸くする*/
+  color: black;
+}
+
+/*ホバー時のデザイン*/
+.pagination>li>a:hover {        
+  border-radius: 15px;    /*角を丸くする*/
+}
