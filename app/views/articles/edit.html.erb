@@ -8,6 +8,7 @@
    <% end %>
    <div class="padding-bottom-15">
    <%= render 'form', article: @article %>
+        <%= link_to '戻る', article_path(@article), class: 'btn btn-success', style: 'margin-bottom: 10px; float: right' %>
    </div>
   </div>
 </div>
